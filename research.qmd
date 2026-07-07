@@ -60,7 +60,9 @@ Latent class multinomial logit (LCMNL) models split a population into preference
 
 ## In preparation
 
-- A Hybrid Machine Learning Approach for the Prediction of Forest Stand Growth Under Different Climate Scenarios (with Antonello Lobianco, Nikola Besic, Jean-Daniel Bontemps, and Laurent Hertzog)
+### A Hybrid Machine Learning Approach for the Prediction of Forest Stand Growth Under Different Climate Scenarios
+
+[with Antonello Lobianco, Nikola Besic, Jean-Daniel Bontemps, and Laurent Hertzog]{.meta}
 
 ## PhD thesis
 

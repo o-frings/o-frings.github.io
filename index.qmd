@@ -1,12 +1,11 @@
 ---
-pagetitle: "Oliver Frings"
+title: "Oliver Frings"
 ---
 
 <!-- TODO: when a headshot exists, add it as assets/profile.jpg and place
-     <img src="assets/profile.jpg" class="hero-photo"> floated right of the hero. -->
+     <img src="assets/profile.jpg" class="hero-photo"> floated right of the intro. -->
 
-[Oliver Frings]{.hero-name}
-[PhD candidate in Economics · AgroParisTech & Climate Economics Chair, Paris]{.hero-role}
+[PhD candidate in Economics · AgroParisTech & Climate Economics Chair, Paris]{.lead-line}
 
 I am a PhD candidate in economics at [AgroParisTech](https://www.agroparistech.fr/) (BETA, Nancy) and a research fellow at the [Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/) in Paris. In 2025 I spent nine months as a visiting scholar at the Department of Land Economy, University of Cambridge ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)).
 

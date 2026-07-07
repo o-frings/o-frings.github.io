@@ -106,12 +106,13 @@ main h2 {
 //   .when:  optional left date column (dated lists)
 // ============================================================
 $entry-title-size: 1.08rem;
+$entry-gap: 1.7rem;
 
 main h3 {
   font-size: $entry-title-size;
   font-weight: 600;
   color: $ink;
-  margin-top: 1.8rem;
+  margin-top: $entry-gap;
   margin-bottom: 0.3rem;
   line-height: 1.45;
 }
@@ -150,7 +151,7 @@ main p:has(> .when:first-child) {
   grid-template-columns: 7.2rem minmax(0, 1fr);
   column-gap: 1.2rem;
   align-items: start;
-  margin-bottom: 1.35rem;
+  margin-bottom: $entry-gap;
 }
 .when {
   grid-row: 1 / span 2;
@@ -236,37 +237,6 @@ main a.pill {
   }
 }
 
-
-// ============================================================
-// Homepage hero
-// ============================================================
-.hero-name {
-  display: block;
-  font-family: $headings-font-family;
-  font-size: 2.1rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  color: $ink;
-  line-height: 1.15;
-  margin-top: 2.5rem;
-  &::after {
-    content: "";
-    display: block;
-    width: 2.4rem;
-    height: 3px;
-    background: $accent;
-    border-radius: 2px;
-    margin-top: 1rem;
-  }
-}
-
-.hero-role {
-  display: block;
-  color: $muted;
-  font-size: 0.95rem;
-  margin-top: 0.9rem;
-  margin-bottom: 1.8rem;
-}
 
 // ============================================================
 // Misc
