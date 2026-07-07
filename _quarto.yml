@@ -35,7 +35,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, custom.scss]
     toc: false
+    callout-appearance: minimal
+    callout-icon: false
     link-external-newwindow: true

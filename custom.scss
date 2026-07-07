@@ -1,0 +1,77 @@
+/*-- scss:defaults --*/
+
+// Restrained forest-green accent; everything else stays neutral
+$primary: #2f5d50;
+$link-color: #2f5d50;
+
+// System font stack: no webfont requests, fast everywhere
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$headings-font-weight: 600;
+$navbar-bg: #ffffff;
+$navbar-fg: #1a1a1a;
+
+/*-- scss:rules --*/
+
+.navbar {
+  border-bottom: 1px solid #e8e8e8;
+  .navbar-title {
+    font-weight: 650;
+    letter-spacing: 0.01em;
+  }
+}
+
+// Quieter page titles
+h1.title,
+.quarto-title-block .title {
+  font-size: 1.7rem;
+  font-weight: 650;
+}
+
+// Section headings with a hairline rule
+main h2 {
+  font-size: 1.25rem;
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+// Readable measure
+main p,
+main ul,
+.callout {
+  max-width: 46rem;
+}
+
+// Collapsible abstracts: plain text disclosure, no box chrome
+.callout.callout-style-simple,
+.callout.callout-note {
+  border: none;
+  border-left: 2px solid #d8d8d8;
+  background: none;
+  padding: 0.1rem 0 0.1rem 0.9rem;
+  margin: 0.4rem 0 1.4rem;
+  .callout-title-container,
+  .callout-caption-container {
+    font-weight: 500;
+    color: #555;
+  }
+  .callout-body {
+    color: #333;
+    font-size: 0.95rem;
+  }
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.nav-footer {
+  border-top: 1px solid #e8e8e8;
+  color: #777;
+  font-size: 0.85rem;
+}
