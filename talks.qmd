@@ -6,42 +6,42 @@ toc-depth: 2
 
 ## Policy engagement
 
-[May 2025]{.when} **Invited roundtable speaker**, Lauterpacht Centre for International Law, Cambridge — legal frameworks for climate and biodiversity policy
+[May 2025]{.when} [Invited roundtable speaker · Lauterpacht Centre for International Law, Cambridge]{.what} [Roundtable on legal frameworks for climate and biodiversity policy]{.meta}
 
-[May 2025]{.when} **Expert contributor**, *Co-design the Future(s) of Payments for Ecosystem Services in the EU* — stakeholder workshop on EU PES scheme design
+[May 2025]{.when} [Expert contributor · Co-design the Future(s) of Payments for Ecosystem Services in the EU]{.what} [Stakeholder workshop on EU PES scheme design]{.meta}
 
-[April 2025]{.when} **Invited panellist**, ThinkForest: *Ask a Scientist — Carbon Farming in the European Forest Sector* — science–policy panel on carbon farming implementation
+[April 2025]{.when} [Invited panellist · ThinkForest: Ask a Scientist — Carbon Farming in the European Forest Sector]{.what} [Science–policy panel on carbon farming implementation]{.meta}
 
-[October 2024]{.when} **Invited expert**, ThinkForest: *What Do We Know About Carbon Farming*, Permanent Representation of Austria to the EU, Brussels — presented Chiti et al. (2024) to EU Commission officials; roundtable on the EU Carbon Removals Certification Framework
+[Oct. 2024]{.when} [Invited expert · ThinkForest: What Do We Know About Carbon Farming, Brussels]{.what} [Presented Chiti et al. (2024) to EU Commission officials at the Permanent Representation of Austria to the EU; roundtable on the EU Carbon Removals Certification Framework]{.meta}
 
 ## Conference presentations
 
-[Sept. 2026]{.when} **XXVII Annual BIOECON Conference**, St John's College, University of Cambridge — oral presentation
+[Sept. 2026]{.when} [XXVII Annual BIOECON Conference]{.what} [St John's College, University of Cambridge — oral presentation]{.meta}
 
-[June–July 2026]{.when} **7th World Congress of Environmental and Resource Economists (WCERE)**, Nova School of Business and Economics, Cascais — oral presentation
+[June–July 2026]{.when} [7th World Congress of Environmental and Resource Economists (WCERE)]{.what} [Nova School of Business and Economics, Cascais — oral presentation]{.meta}
 
-[March 2026]{.when} **3rd European Carbon Farming Summit**, Padua — oral presentation
+[March 2026]{.when} [3rd European Carbon Farming Summit]{.what} [Padua — oral presentation]{.meta}
 
-[June 2025]{.when} **International Symposium on Climate, Finance and Sustainability (ISCFS)**, Paris — oral presentation
+[June 2025]{.when} [International Symposium on Climate, Finance and Sustainability (ISCFS)]{.what} [Paris — oral presentation]{.meta}
 
-[October 2024]{.when} **LabEx ARBRE Day**, INRAE Champenoux, Nancy — oral presentation
+[Oct. 2024]{.when} [LabEx ARBRE Day]{.what} [INRAE Champenoux, Nancy — oral presentation]{.meta}
 
-[Sept. 2024]{.when} **XXV Annual BIOECON Conference**, King's College, University of Cambridge — oral presentation
+[Sept. 2024]{.when} [XXV Annual BIOECON Conference]{.what} [King's College, University of Cambridge — oral presentation]{.meta}
 
-[July 2024]{.when} **26th IUFRO World Congress**, Stockholm — poster
+[July 2024]{.when} [26th IUFRO World Congress]{.what} [Stockholm — poster]{.meta}
 
-[June 2024]{.when} **8th Workshop on Non-Market Valuation (WONV)**, University of Leeds — oral presentation
+[June 2024]{.when} [8th Workshop on Non-Market Valuation (WONV)]{.what} [University of Leeds — oral presentation]{.meta}
 
-[June 2024]{.when} **2nd Action versus Inaction Facing Climate Change (AICC) Conference**, Strasbourg — poster
+[June 2024]{.when} [2nd Action versus Inaction Facing Climate Change (AICC) Conference]{.what} [Strasbourg — poster]{.meta}
 
-[June 2023]{.when} **28th Annual Conference of the European Association of Environmental and Resource Economists (EAERE)**, Limassol — oral presentation
+[June 2023]{.when} [28th EAERE Annual Conference]{.what} [European Association of Environmental and Resource Economists, Limassol — oral presentation]{.meta}
 
 ## Seminars
 
-[June 2025]{.when} **Research seminar**, Centre for Environment, Energy and Natural Resource Governance (C-EENRG), University of Cambridge
+[June 2025]{.when} [C-EENRG Research Seminar]{.what} [Centre for Environment, Energy and Natural Resource Governance, University of Cambridge]{.meta}
 
 ## Teaching
 
-[Nov. 2024]{.when} **Regulation of Ecosystem Services — Market-Based Instruments and Payments for Ecosystem Services**, AgroParisTech, MSc Forests and their Environment (FEN), Nancy
+[Nov. 2024]{.when} [Regulation of Ecosystem Services — Market-Based Instruments and PES]{.what} [AgroParisTech, MSc Forests and their Environment (FEN), Nancy]{.meta}
 
-[Nov. 2024]{.when} **Introduction to Stated Preference Methods for Ecosystem Services Valuation**, AgroParisTech, MSc Forests and their Environment (FEN), Nancy
+[Nov. 2024]{.when} [Introduction to Stated Preference Methods for Ecosystem Services Valuation]{.what} [AgroParisTech, MSc Forests and their Environment (FEN), Nancy]{.meta}

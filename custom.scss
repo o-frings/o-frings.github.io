@@ -100,27 +100,46 @@ main h3 {
   }
 }
 
-// ---------- Talks: hanging date column ----------
-.when {
-  display: inline-block;
-  min-width: 8.5rem;
-  color: #9a9a9a;
-  font-size: 0.82rem;
-  font-weight: 500;
-}
+// ---------- Talks: aligned two-column entries ----------
+// Each entry is a paragraph of three spans: .when (date), .what (title), .meta (detail)
 main p:has(> .when:first-child) {
-  padding-left: 9.5rem;
-  text-indent: -9.5rem;
-  margin-bottom: 0.6rem;
+  display: grid;
+  grid-template-columns: 7.2rem minmax(0, 1fr);
+  column-gap: 1.2rem;
+  align-items: start;
+  max-width: 46rem;
+  margin-bottom: 1.05rem;
+}
+.when {
+  grid-row: 1 / span 2;
+  color: #9a9a9a;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-top: 0.22rem;
+  white-space: nowrap;
+}
+.what {
+  grid-column: 2;
+  font-weight: 600;
+  font-size: 0.96rem;
+  color: #222;
+  line-height: 1.5;
+}
+main p:has(> .when) .meta {
+  grid-column: 2;
+  margin-top: 0.05rem;
 }
 @media (max-width: 576px) {
   main p:has(> .when:first-child) {
-    padding-left: 0;
-    text-indent: 0;
+    grid-template-columns: 1fr;
   }
   .when {
-    display: block;
-    min-width: 0;
+    grid-row: auto;
+    padding-top: 0;
+  }
+  .what,
+  main p:has(> .when) .meta {
+    grid-column: 1;
   }
 }
 
