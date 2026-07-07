@@ -1,0 +1,19 @@
+---
+title: "Software"
+---
+
+## klue
+
+An R package implementing the clustering-initialised specification workflow for latent class multinomial logit (LCMNL) models from the [companion paper](research.qmd): clustering-based initialisation, multi-start maximum likelihood, and segment selection via BIC with a classification-entropy diagnostic, benchmarked against mixed logit.
+
+[GitHub](https://github.com/o-frings/klue) · [R-universe](https://o-frings.r-universe.dev/klue)
+
+```r
+install.packages("klue", repos = "https://o-frings.r-universe.dev")
+```
+
+## Net climate value pipeline
+
+The reproducible R pipeline behind *The Net Climate Value of Carbon Credits*: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty.
+
+[GitHub](https://github.com/o-frings/net-climate-value)

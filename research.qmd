@@ -1,0 +1,71 @@
+---
+title: "Research"
+toc: true
+---
+
+My research sits in environmental and resource economics, with two connected strands: the supply side of carbon markets (what a credit is actually worth once leakage, storage duration, and reversal risk are priced) and the demand side (how the public values ecosystem services and the institutions that provide them). Drafts of unpublished work are available on request.
+
+## Under review
+
+**The Net Climate Value of Carbon Credits: Pricing Leakage, Time, and Reversal**
+with Jens Abildtrup, Philippe Delacote, Andreas Kontoleon, Hannes Böttcher, Tommaso Chiti, Ana Rey, Jurij Diaci, Aleksi Lehtonen, Helga Pülzl, Andreas Schindlbacher, and Miguel A. Zavala
+*Under review* · [Replication code](https://github.com/o-frings/net-climate-value)
+
+::: {.callout-note collapse="true" title="Abstract"}
+A forest carbon credit promises to keep one tonne of CO₂ from the atmosphere, yet most goes unmet. After on-site verification, three downstream channels — market leakage, finite storage duration, and reversal risk — erode credited carbon, none yet priced together. We calibrate each into one issuance rule, applied to sixteen forest practices across three European biomes with Monte Carlo uncertainty. Only 11–49% survives as net climate value (median 23%), and five schemes over-credit by 32–63%. Storage duration is the largest deduction, yet schemes credit 30- and 100-year contracts identically. Reaching 100 MtCO₂ yr⁻¹ of genuine removals needs 60–200 Mha — approaching or exceeding the EU's 160 Mha forest estate — while crediting the shortfall at face value over-credits by ~86 MtCO₂e yearly, a \$4–28 billion social cost. Rankings and gap signs hold across the discount rate and permanence benchmark. As the EU finalises its Carbon Removals Certification Framework, a credit equals a tonne only when leakage, duration, and reversal are priced alongside verification.
+:::
+
+## Publications
+
+**Do Individual PES Buyers Care About Additionality and Free-Riding? A Choice Experiment**
+with Jens Abildtrup, Claire Montagné-Huck, Salomé Gorel, and Anne Stenger
+*Ecological Economics*, 213, 107944 (2023) · [DOI](https://doi.org/10.1016/j.ecolecon.2023.107944)
+
+**A Review of Forest Management Practices Potentially Suitable for Carbon Farming in European Forests**
+Chiti, T., Rey, A., Abildtrup, J., Böttcher, H., Diaci, J., **Frings, O.**, Lehtonen, A., Pülzl, H., Schindlbacher, A., & Zavala, M. A.
+*Journal of Environmental Management*, 398, 128391 (2026) · [Article](https://www.sciencedirect.com/science/article/pii/S0301479725043671)
+
+**Carbon Farming in the European Forestry Sector**
+Chiti, T., Rey, A., Abildtrup, J., Böttcher, H., Diaci, J., **Frings, O.**, Lehtonen, A., & Zavala, M. A.
+*From Science to Policy 17*, European Forest Institute (2024) · [Report](https://efi.int/sites/default/files/files/publication-bank/2024/efi_fstp17_2024.pdf)
+
+**Productive and Biodiverse: Managing Europe's Forests for Economic and Ecological Outcomes**
+Chiti, T., Rey, A., Zavala, M. A., Manrique, S., & **Frings, O.**
+IUFRO Policy Report, International Union of Forest Research Organizations (2026, forthcoming)
+
+## Working papers
+
+**Public Preferences over Tropical Carbon Offsets: Moral Distance versus Market Distrust in the EU Land-Sector Gap**
+Pre-registered study, four countries (France, Germany, Spain, Denmark)
+
+::: {.callout-note collapse="true" title="Abstract"}
+How should Europe close the projected 100 Mt CO₂-eq/year shortfall in its 2030 land-sector target? A pre-registered four-country study (France, Germany, Spain, Denmark) measures public preferences over the institutional composition of forest climate mitigation under this binding allocation constraint. Respondents allocate a fixed mitigation budget across configurations differing in institutional mode (public versus private offsetting), location (higher- vs lower-income EU, and non-EU tropical), and forest ownership. An opt-out pivot — randomising the do-nothing baseline between a zero-cost status quo and a calibrated residual-damage display — recovers a marginal utility of income whose portability across reference-point framings it tests, the anchor against which every welfare contrast is measured. The central diagnostic is a Mode × Location interaction at tropical locations that adjudicates moral-circle decay against institutional distrust of private tropical projects, extending the carbon-market over-crediting debate from supply to demand. Secondary contrasts recover the offsetting-versus-direct-reduction wedge, the public–private mode wedge, and a community-ownership premium.
+:::
+
+**One Divide, Two Countries: Climate Concern Splits Support for Forest Conservation Programmes**
+with Jens Abildtrup, David W. Shanafelt, Antonello Lobianco, and Harald Vacik
+Highly Commended Paper Award, 8th Workshop on Non-Market Valuation (Leeds, 2024)
+
+::: {.callout-note collapse="true" title="Abstract"}
+We study and segment demand for forest conservation programmes across Austria (N=592) and France (N=1,637) using discrete choice experiments combining latent class and mixed logit models with machine-learning screening. The valued programmes leaned on climate change mitigation and adaptation, as well as improved biodiversity protection and recreational value. We find both countries splitting the same way: a supportive majority of about three-quarters, and a remaining more reluctant minority. Various climate opinions dominate the sorting, with climate fear being the strongest single predictor in Austria — where it is the only one to survive when four climate opinion variables are entered together — and is matched only by climate scepticism in France. Against our expectation, belief in the possibility of halting climate change showed no significant effect. Commune-level vote shares add nothing once climate opinions and demographics are included. Willingness to pay differs sharply between the two groups but is hard to predict within them, so the structure of preferences transfers across countries more readily than its magnitudes.
+:::
+
+**A Clustering-Initialised Specification Workflow for Latent Class Choice Models**
+Companion R package: [klue](software.qmd)
+
+::: {.callout-note collapse="true" title="Abstract"}
+Latent class multinomial logit (LCMNL) models split a population into preference segments, but two questions dog them: estimation is sensitive to starting values, and researchers lack guidance on how many segments to retain and whether the heterogeneity is genuinely discrete rather than continuous. I propose a disciplined, pre-registrable workflow that initialises estimation by clustering respondents on their choice patterns, selects the number of segments with the Bayesian Information Criterion (BIC) and a classification-entropy diagnostic, and benchmarks the result against a mixed logit (MMNL). A Monte Carlo study, run under both idealised randomised designs and the realistic blocked, D-efficient designs typical of applied work, shows that BIC enumerates segments more accurately than ICL or AIC and discriminates discrete from continuous heterogeneity. The value of clustering-based initialisation is conditional on the design: on idealised data it ties the established packages (Apollo, gmnl) and EM, but under realistic blocked designs clustering — with either maximum-likelihood or EM estimation — holds the global optimum where the packages' own starting-value routines fall short. Across five public datasets a mixed logit is preferred on four — correlated rather than independent on some — and LCMNL on one, Swissmetro, where it beats even a correlated mixed logit and the entropy diagnostic points to a small model near the literature's five-segment benchmark. The result is a single, transparent decision rule for latent class choice models.
+:::
+
+## In preparation
+
+- Governments or Private Initiatives: Where Does Public Trust Fall in Forest Ecosystem Services Policy? (solo)
+- Meat of the Future: Consumer Substitution and Environmental Impact of Cell-Based and Plant-Based Proteins (with Tom Bry-Chevalier)
+- A Hybrid Machine Learning Approach for the Prediction of Forest Stand Growth Under Different Climate Scenarios (with Antonello Lobianco, Nikola Besic, Jean-Daniel Bontemps, and Laurent Hertzog)
+
+## PhD thesis
+
+***Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets***
+AgroParisTech, defence expected October 2026
+
+The thesis asks what makes nature markets credible, in three parts. The first builds the measurement instrument: a specification workflow for latent class choice models. The second studies demand-side legitimacy: who supports forest conservation programmes and carbon offsetting, and how that support depends on the institutions delivering them. The third turns to supply-side integrity: an issuance rule that prices leakage, storage duration, and reversal risk into forest carbon credits.

@@ -1,0 +1,41 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - .nojekyll
+
+website:
+  title: "Oliver Frings"
+  description: "Environmental and resource economist working on carbon market integrity and public preferences for climate and forest policy."
+  site-url: https://o-frings.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: software.qmd
+        text: Software
+      - href: talks.qmd
+        text: Talks & Policy
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/o-frings
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/oliver-frings-x161/
+        aria-label: LinkedIn
+      - icon: envelope
+        href: mailto:oliver.frings@agroparistech.fr
+        aria-label: Email
+  page-footer:
+    center: "© 2026 Oliver Frings"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
