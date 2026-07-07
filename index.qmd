@@ -9,7 +9,7 @@ title: "Oliver Frings"
 
 ## About
 
-I study whether nature markets deliver what they promise. My work pairs survey experiments — on public support for forest conservation and carbon offsetting across Europe — with actuarial models of the carbon-credit supply side, leaning on discrete choice methods and Monte Carlo risk pricing to separate delivered climate value from credited claims.
+I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.
 
 I am a PhD candidate at [AgroParisTech](https://www.agroparistech.fr/) (BETA, Nancy), a research fellow at the [Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/) in Paris, and a visiting scholar at the Department of Land Economy ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)), University of Cambridge. My thesis, *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, is due for defence in October 2026.
 
