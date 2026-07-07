@@ -59,8 +59,6 @@ Latent class multinomial logit (LCMNL) models split a population into preference
 
 ## In preparation
 
-- Governments or Private Initiatives: Where Does Public Trust Fall in Forest Ecosystem Services Policy? (solo)
-- Meat of the Future: Consumer Substitution and Environmental Impact of Cell-Based and Plant-Based Proteins (with Tom Bry-Chevalier)
 - A Hybrid Machine Learning Approach for the Prediction of Forest Stand Growth Under Different Climate Scenarios (with Antonello Lobianco, Nikola Besic, Jean-Daniel Bontemps, and Laurent Hertzog)
 
 ## PhD thesis
