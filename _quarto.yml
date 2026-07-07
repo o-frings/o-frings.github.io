@@ -37,6 +37,8 @@ website:
 format:
   html:
     theme: [cosmo, custom.scss]
+    grid:
+      body-width: 720px
     toc: false
     callout-appearance: minimal
     callout-icon: false

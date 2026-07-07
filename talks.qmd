@@ -1,7 +1,5 @@
 ---
 title: "Talks & Policy"
-toc: true
-toc-depth: 2
 ---
 
 ## Policy engagement

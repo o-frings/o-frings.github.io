@@ -1,7 +1,5 @@
 ---
 title: "Research"
-toc: true
-toc-depth: 2
 ---
 
 My research sits in environmental and resource economics, with two connected strands: the supply side of carbon markets (what a credit is actually worth once leakage, storage duration, and reversal risk are priced) and the demand side (how the public values ecosystem services and the institutions that provide them). Drafts of unpublished work are available on request.
