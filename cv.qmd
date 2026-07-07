@@ -2,6 +2,8 @@
 title: "CV"
 ---
 
-Full academic CV: [download PDF](assets/CV_Oliver_Frings.pdf){.btn .btn-outline-primary}
+[Education, positions, publications, talks, grants, and teaching in one document.]{.lead-line}
 
-<iframe src="assets/CV_Oliver_Frings.pdf" width="100%" height="900" style="border: 1px solid #ddd;"></iframe>
+[Download PDF](assets/CV_Oliver_Frings.pdf){.pill}
+
+<iframe src="assets/CV_Oliver_Frings.pdf" width="100%" height="900"></iframe>

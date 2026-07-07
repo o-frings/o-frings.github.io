@@ -4,7 +4,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Full academic CV: download PDF"
+    "text": "Education, positions, publications, talks, grants, and teaching in one document.\nDownload PDF"
   },
   {
     "objectID": "index.html",
@@ -74,21 +74,21 @@
     "href": "talks.html",
     "title": "Talks & Policy",
     "section": "",
-    "text": "May 2025 Invited roundtable speaker · Lauterpacht Centre for International Law, Cambridge Roundtable on legal frameworks for climate and biodiversity policy\nMay 2025 Expert contributor · Co-design the Future(s) of Payments for Ecosystem Services in the EU Stakeholder workshop on EU PES scheme design\nApril 2025 Invited panellist · ThinkForest: Ask a Scientist — Carbon Farming in the European Forest Sector Science–policy panel on carbon farming implementation\nOct. 2024 Invited expert · ThinkForest: What Do We Know About Carbon Farming, Brussels Presented Chiti et al. (2024) to EU Commission officials at the Permanent Representation of Austria to the EU; roundtable on the EU Carbon Removals Certification Framework"
+    "text": "Invited policy contributions, conference presentations, and teaching. Slides for most talks are available on request."
   },
   {
     "objectID": "talks.html#policy-engagement",
     "href": "talks.html#policy-engagement",
     "title": "Talks & Policy",
-    "section": "",
-    "text": "May 2025 Invited roundtable speaker · Lauterpacht Centre for International Law, Cambridge Roundtable on legal frameworks for climate and biodiversity policy\nMay 2025 Expert contributor · Co-design the Future(s) of Payments for Ecosystem Services in the EU Stakeholder workshop on EU PES scheme design\nApril 2025 Invited panellist · ThinkForest: Ask a Scientist — Carbon Farming in the European Forest Sector Science–policy panel on carbon farming implementation\nOct. 2024 Invited expert · ThinkForest: What Do We Know About Carbon Farming, Brussels Presented Chiti et al. (2024) to EU Commission officials at the Permanent Representation of Austria to the EU; roundtable on the EU Carbon Removals Certification Framework"
+    "section": "Policy engagement",
+    "text": "Policy engagement\nMay 2025 Invited roundtable speaker · Lauterpacht Centre for International Law, Cambridge Roundtable on legal frameworks for climate and biodiversity policy\nMay 2025 Expert contributor · Co-design the Future(s) of Payments for Ecosystem Services in the EU Stakeholder workshop on EU PES scheme design\nApril 2025 Invited panellist · ThinkForest: Ask a Scientist — Carbon Farming in the European Forest Sector Science–policy panel on carbon farming implementation\nOct. 2024 Invited expert · ThinkForest: What Do We Know About Carbon Farming, Brussels Presented Chiti et al. (2024) to EU Commission officials at the Permanent Representation of Austria to the EU; roundtable on the EU Carbon Removals Certification Framework"
   },
   {
     "objectID": "talks.html#conference-presentations",
     "href": "talks.html#conference-presentations",
     "title": "Talks & Policy",
     "section": "Conference presentations",
-    "text": "Conference presentations\nSept. 2026 XXVII Annual BIOECON Conference St John’s College, University of Cambridge — oral presentation\nJune–July 2026 7th World Congress of Environmental and Resource Economists (WCERE) Nova School of Business and Economics, Cascais — oral presentation\nMarch 2026 3rd European Carbon Farming Summit Padua — oral presentation\nJune 2025 International Symposium on Climate, Finance and Sustainability (ISCFS) Paris — oral presentation\nOct. 2024 LabEx ARBRE Day INRAE Champenoux, Nancy — oral presentation\nSept. 2024 XXV Annual BIOECON Conference King’s College, University of Cambridge — oral presentation\nJuly 2024 26th IUFRO World Congress Stockholm — poster\nJune 2024 8th Workshop on Non-Market Valuation (WONV) University of Leeds — oral presentation\nJune 2024 2nd Action versus Inaction Facing Climate Change (AICC) Conference Strasbourg — poster\nJune 2023 28th EAERE Annual Conference European Association of Environmental and Resource Economists, Limassol — oral presentation"
+    "text": "Conference presentations\nSept. 2026 XXVII Annual BIOECON Conference St John’s College, University of Cambridge · oral presentation\nJune–July 2026 7th World Congress of Environmental and Resource Economists (WCERE) Nova School of Business and Economics, Cascais · oral presentation\nMarch 2026 3rd European Carbon Farming Summit Padua · oral presentation\nJune 2025 International Symposium on Climate, Finance and Sustainability (ISCFS) Paris · oral presentation\nOct. 2024 LabEx ARBRE Day INRAE Champenoux, Nancy · oral presentation\nSept. 2024 XXV Annual BIOECON Conference King’s College, University of Cambridge · oral presentation\nJuly 2024 26th IUFRO World Congress Stockholm · poster\nJune 2024 8th Workshop on Non-Market Valuation (WONV) University of Leeds · oral presentation\nJune 2024 2nd Action versus Inaction Facing Climate Change (AICC) Conference Strasbourg · poster\nJune 2023 28th EAERE Annual Conference European Association of Environmental and Resource Economists, Limassol · oral presentation"
   },
   {
     "objectID": "talks.html#seminars",
@@ -109,14 +109,14 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "R package · GitHub · R-universe\nAn R package implementing the clustering-initialised specification workflow for latent class multinomial logit (LCMNL) models from the companion paper: clustering-based initialisation, multi-start maximum likelihood, and segment selection via BIC with a classification-entropy diagnostic, benchmarked against mixed logit.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\n\nR pipeline · GitHub\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty."
+    "text": "Statistical software from my research, and a few local-first apps built on the side. Everything is open source on GitHub."
   },
   {
     "objectID": "software.html#research-software",
     "href": "software.html#research-software",
     "title": "Software",
-    "section": "",
-    "text": "R package · GitHub · R-universe\nAn R package implementing the clustering-initialised specification workflow for latent class multinomial logit (LCMNL) models from the companion paper: clustering-based initialisation, multi-start maximum likelihood, and segment selection via BIC with a classification-entropy diagnostic, benchmarked against mixed logit.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\n\nR pipeline · GitHub\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty."
+    "section": "Research software",
+    "text": "Research software\n\nklue\nR package · GitHub · R-universe\nAn R package implementing the clustering-initialised specification workflow for latent class multinomial logit (LCMNL) models from the companion paper: clustering-based initialisation, multi-start maximum likelihood, and segment selection via BIC with a classification-entropy diagnostic, benchmarked against mixed logit.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\nNet climate value pipeline\nR pipeline · GitHub\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty."
   },
   {
     "objectID": "software.html#side-projects",

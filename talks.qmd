@@ -2,6 +2,8 @@
 title: "Talks & Policy"
 ---
 
+[Invited policy contributions, conference presentations, and teaching. Slides for most talks are available on request.]{.lead-line}
+
 ## Policy engagement
 
 [May 2025]{.when} [Invited roundtable speaker · Lauterpacht Centre for International Law, Cambridge]{.what} [Roundtable on legal frameworks for climate and biodiversity policy]{.meta}
@@ -14,25 +16,25 @@ title: "Talks & Policy"
 
 ## Conference presentations
 
-[Sept. 2026]{.when} [XXVII Annual BIOECON Conference]{.what} [St John's College, University of Cambridge — oral presentation]{.meta}
+[Sept. 2026]{.when} [XXVII Annual BIOECON Conference]{.what} [St John's College, University of Cambridge · oral presentation]{.meta}
 
-[June–July 2026]{.when} [7th World Congress of Environmental and Resource Economists (WCERE)]{.what} [Nova School of Business and Economics, Cascais — oral presentation]{.meta}
+[June–July 2026]{.when} [7th World Congress of Environmental and Resource Economists (WCERE)]{.what} [Nova School of Business and Economics, Cascais · oral presentation]{.meta}
 
-[March 2026]{.when} [3rd European Carbon Farming Summit]{.what} [Padua — oral presentation]{.meta}
+[March 2026]{.when} [3rd European Carbon Farming Summit]{.what} [Padua · oral presentation]{.meta}
 
-[June 2025]{.when} [International Symposium on Climate, Finance and Sustainability (ISCFS)]{.what} [Paris — oral presentation]{.meta}
+[June 2025]{.when} [International Symposium on Climate, Finance and Sustainability (ISCFS)]{.what} [Paris · oral presentation]{.meta}
 
-[Oct. 2024]{.when} [LabEx ARBRE Day]{.what} [INRAE Champenoux, Nancy — oral presentation]{.meta}
+[Oct. 2024]{.when} [LabEx ARBRE Day]{.what} [INRAE Champenoux, Nancy · oral presentation]{.meta}
 
-[Sept. 2024]{.when} [XXV Annual BIOECON Conference]{.what} [King's College, University of Cambridge — oral presentation]{.meta}
+[Sept. 2024]{.when} [XXV Annual BIOECON Conference]{.what} [King's College, University of Cambridge · oral presentation]{.meta}
 
-[July 2024]{.when} [26th IUFRO World Congress]{.what} [Stockholm — poster]{.meta}
+[July 2024]{.when} [26th IUFRO World Congress]{.what} [Stockholm · poster]{.meta}
 
-[June 2024]{.when} [8th Workshop on Non-Market Valuation (WONV)]{.what} [University of Leeds — oral presentation]{.meta}
+[June 2024]{.when} [8th Workshop on Non-Market Valuation (WONV)]{.what} [University of Leeds · oral presentation]{.meta}
 
-[June 2024]{.when} [2nd Action versus Inaction Facing Climate Change (AICC) Conference]{.what} [Strasbourg — poster]{.meta}
+[June 2024]{.when} [2nd Action versus Inaction Facing Climate Change (AICC) Conference]{.what} [Strasbourg · poster]{.meta}
 
-[June 2023]{.when} [28th EAERE Annual Conference]{.what} [European Association of Environmental and Resource Economists, Limassol — oral presentation]{.meta}
+[June 2023]{.when} [28th EAERE Annual Conference]{.what} [European Association of Environmental and Resource Economists, Limassol · oral presentation]{.meta}
 
 ## Seminars
 
