@@ -8,6 +8,7 @@ website:
   title: "Oliver Frings"
   description: "Environmental and resource economist working on carbon market integrity and public preferences for climate and forest policy."
   site-url: https://o-frings.github.io
+  search: false
   navbar:
     pinned: true
     left:
