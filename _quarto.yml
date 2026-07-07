@@ -9,6 +9,7 @@ website:
   description: "Environmental and resource economist working on carbon market integrity and public preferences for climate and forest policy."
   site-url: https://o-frings.github.io
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: About
@@ -40,3 +41,8 @@ format:
     callout-appearance: minimal
     callout-icon: false
     link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600..700&display=swap" rel="stylesheet">
