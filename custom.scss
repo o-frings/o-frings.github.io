@@ -182,10 +182,10 @@ main p:has(> .when) .meta {
 // ============================================================
 // Disclosure (abstracts, project detail)
 // ============================================================
-.callout.callout-style-simple,
-.callout.callout-note {
-  border: none;
-  border-left: 2px solid $line;
+div.callout.callout-style-simple,
+div.callout.callout-note {
+  border: none !important;
+  border-left: 2px solid $line !important;
   background: none;
   padding: 0.1rem 0 0.1rem 1rem;
   margin: 0.6rem 0 1.7rem;

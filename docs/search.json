@@ -4,14 +4,28 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Education, positions, publications, talks, grants, and teaching in one document.\nDownload PDF"
+    "text": "Education, positions, publications, talks, grants, and teaching in one document."
+  },
+  {
+    "objectID": "cv.html#curriculum-vitae",
+    "href": "cv.html#curriculum-vitae",
+    "title": "CV",
+    "section": "Curriculum vitae",
+    "text": "Curriculum vitae\nDownload PDF"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Oliver Frings",
     "section": "",
-    "text": "PhD candidate in Economics · AgroParisTech & Climate Economics Chair, Paris\nI am a PhD candidate in economics at AgroParisTech (BETA, Nancy) and a research fellow at the Climate Economics Chair in Paris. In 2025 I spent nine months as a visiting scholar at the Department of Land Economy, University of Cambridge (C-EENRG).\nI work on the economics of nature markets: how the integrity of carbon credits — leakage, storage duration, reversal risk — can be priced, and how the public values the institutions that supply climate mitigation. My main tools are discrete choice experiments, random utility models, and Monte Carlo risk modelling, mostly in R.\nMy thesis, Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets, is due for defence in October 2026. I am supervised by Jens Abildtrup and Antonello Lobianco.\nEmail Google Scholar ORCID GitHub LinkedIn CV (PDF)"
+    "text": "PhD candidate in Economics · AgroParisTech & Climate Economics Chair, Paris"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Oliver Frings",
+    "section": "About",
+    "text": "About\nI am a PhD candidate in economics at AgroParisTech (BETA, Nancy) and a research fellow at the Climate Economics Chair in Paris. In 2025 I spent nine months as a visiting scholar at the Department of Land Economy, University of Cambridge (C-EENRG).\nI work on the economics of nature markets: how the integrity of carbon credits — leakage, storage duration, reversal risk — can be priced, and how the public values the institutions that supply climate mitigation. My main tools are discrete choice experiments, random utility models, and Monte Carlo risk modelling, mostly in R.\nMy thesis, Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets, is due for defence in October 2026. I am supervised by Jens Abildtrup and Antonello Lobianco.\nEmail Google Scholar ORCID GitHub LinkedIn CV (PDF)"
   },
   {
     "objectID": "index.html#education",
