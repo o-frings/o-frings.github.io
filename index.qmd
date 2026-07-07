@@ -9,7 +9,7 @@ title: "Oliver Frings"
 
 ## About
 
-I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.
+[I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.]{.lead-line}
 
 [Email](mailto:oliver.frings@agroparistech.fr){.pill}
 [Google Scholar](https://scholar.google.com/citations?user=DgFqKHYAAAAJ){.pill}
