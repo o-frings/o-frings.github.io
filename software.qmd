@@ -22,10 +22,22 @@ The reproducible R pipeline behind *The Net Climate Value of Carbon Credits*: ca
 
 All three share the same design philosophy: local-first (your data stays on the device), no account, no subscription, and no build step — each app is plain HTML, CSS, and JavaScript, installable on the iPhone home screen as a progressive web app.
 
-**Yalla** — an offline-first workout tracker. Unlike trackers such as Strong or Hevy, there is no server and no premium tier. Rather than following linear progression templates, it tracks training volume across twelve muscle groups (shown as a balance radar), suggests deload weeks from cumulative load, and builds plans around your venue (home, park, gym) and logged injuries. Bodyweight exercises are logged at true load — body weight plus added weight.
+**Yalla** — an offline-first workout tracker.
 [App](https://o-frings.github.io/yalla/) · [GitHub](https://github.com/o-frings/yalla)
 
-**Clue** — a knowledge and debate trainer. Where Anki organises learning around a due-card queue with streaks and daily quotas, Clue deliberately has none of these: the spaced-repetition schedule (SM-2) runs invisibly, and due material simply resurfaces in a discovery feed and as faded nodes in a growing mind-map of what you know. Cards are rungs in short ladders (gist → basics → deeper → debate), and every claim links to an evidence registry with cited sources and an explicit evidence-strength label.
+::: {.callout-note collapse="true" title="More"}
+Unlike trackers such as Strong or Hevy, there is no server and no premium tier. Rather than following linear progression templates, it tracks training volume across twelve muscle groups (shown as a balance radar), suggests deload weeks from cumulative load, and builds plans around your venue (home, park, gym) and logged injuries. Bodyweight exercises are logged at true load — body weight plus added weight.
+:::
+
+**Clue** — a knowledge and debate trainer.
 [App](https://o-frings.github.io/clue/) · [GitHub](https://github.com/o-frings/clue)
 
-**Mäander** — a bike-routing web app (TypeScript, MapLibre, BRouter) for quiet, nature-oriented rides in Germany. Where Komoot or Google Maps optimise for time and distance, Mäander runs a custom routing profile that treats parks and forests as islands of shelter and busy roads as water: motorways carry a 700 m noise halo, forest tracks cost a fraction of paved roads, and one slider moves a route from fastest to greenest. It also plans round-trip loops of a chosen length and compass direction, and compares several route alternatives side by side.
+::: {.callout-note collapse="true" title="More"}
+Where Anki organises learning around a due-card queue with streaks and daily quotas, Clue deliberately has none of these: the spaced-repetition schedule (SM-2) runs invisibly, and due material simply resurfaces in a discovery feed and as faded nodes in a growing mind-map of what you know. Cards are rungs in short ladders (gist → basics → deeper → debate), and every claim links to an evidence registry with cited sources and an explicit evidence-strength label.
+:::
+
+**Mäander** — a bike-routing web app for quiet, nature-oriented rides in Germany.
+
+::: {.callout-note collapse="true" title="More"}
+Where Komoot or Google Maps optimise for time and distance, Mäander (TypeScript, MapLibre, BRouter) runs a custom routing profile that treats parks and forests as islands of shelter and busy roads as water: motorways carry a 700 m noise halo, forest tracks cost a fraction of paved roads, and one slider moves a route from fastest to greenest. It also plans round-trip loops of a chosen length and compass direction, and compares several route alternatives side by side.
+:::
