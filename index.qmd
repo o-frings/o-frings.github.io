@@ -9,11 +9,9 @@ title: "Oliver Frings"
 
 ## About
 
-I am a PhD candidate in economics at [AgroParisTech](https://www.agroparistech.fr/) (BETA, Nancy) and a research fellow at the [Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/) in Paris. In 2025 I spent nine months as a visiting scholar at the Department of Land Economy, University of Cambridge ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)).
+I study whether nature markets deliver what they promise. My work pairs survey experiments — on public support for forest conservation and carbon offsetting across Europe — with actuarial models of the carbon-credit supply side, leaning on discrete choice methods and Monte Carlo risk pricing to separate delivered climate value from credited claims.
 
-I work on the economics of nature markets: how the integrity of carbon credits — leakage, storage duration, reversal risk — can be priced, and how the public values the institutions that supply climate mitigation. My main tools are discrete choice experiments, random utility models, and Monte Carlo risk modelling, mostly in R.
-
-My thesis, *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, is due for defence in October 2026. I am supervised by Jens Abildtrup and Antonello Lobianco.
+I am a PhD candidate at [AgroParisTech](https://www.agroparistech.fr/) (BETA, Nancy), a research fellow at the [Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/) in Paris, and a visiting scholar at the Department of Land Economy ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)), University of Cambridge. My thesis, *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, is due for defence in October 2026.
 
 [Email](mailto:oliver.frings@agroparistech.fr){.pill}
 [Google Scholar](https://scholar.google.com/citations?user=DgFqKHYAAAAJ){.pill}
@@ -24,7 +22,7 @@ My thesis, *Pricing Credibility: Supply-Side Integrity and Public Acceptability 
 
 ## Education
 
-[2023–2026]{.when} [PhD in Economics]{.what} [AgroParisTech, BETA (INRAE/CNRS/University of Lorraine), Nancy & Palaiseau — expected October 2026, incl. nine months at the University of Cambridge]{.meta}
+[2023–2026]{.when} [PhD in Economics]{.what} [AgroParisTech, BETA (INRAE/CNRS/University of Lorraine), Nancy & Palaiseau — expected October 2026, incl. an ongoing research stay at the University of Cambridge (since 2025)]{.meta}
 
 [2020–2022]{.when} [MSc in European Forestry (Erasmus Mundus)]{.what} [University of Eastern Finland & University of Lleida — thesis published in *Ecological Economics* (2023)]{.meta}
 

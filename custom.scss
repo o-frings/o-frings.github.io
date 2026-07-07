@@ -11,14 +11,14 @@ $faint: #9c9c9c; // dates, labels, footer
 $line: #e6e6e6; // hairlines
 $accent: #2f5d50; // links, hover, title bar — nothing else
 
-// Type: serif for content headings, sans for everything else
-// Scale: 0.8 / 0.88 / 1 / 1.1 / 1.75 / 2.3 rem
+// Type: Inter everywhere; hierarchy via weight and size
+// Scale: 0.75 / 0.8 / 0.88 / 0.95 / 1 / 1.08 / 2 rem
 $primary: $accent;
 $link-color: $accent;
 $body-color: $body;
 $font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
   Roboto, "Helvetica Neue", Arial, sans-serif;
-$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 600;
 $font-size-root: 17px;
 $line-height-base: 1.7;
@@ -35,15 +35,15 @@ $code-block-bg: #f6f7f6;
 .navbar {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-bottom: 1px solid $line;
+  border-bottom: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-  box-shadow: none;
 
   .navbar-title {
-    font-family: $headings-font-family;
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 700;
+    letter-spacing: -0.01em;
     color: $ink;
   }
 
@@ -67,9 +67,9 @@ $code-block-bg: #f6f7f6;
   margin-bottom: 2.5rem;
 
   .title {
-    font-size: 1.75rem;
-    font-weight: 700;
-    letter-spacing: -0.01em;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
     color: $ink;
     &::after {
       content: "";
@@ -92,16 +92,14 @@ main h2 {
   text-transform: uppercase;
   letter-spacing: 0.14em;
   color: $faint;
-  font-weight: 650;
-  margin-top: 3.5rem;
-  margin-bottom: 1.4rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 1px solid $line;
+  font-weight: 600;
+  margin-top: 3.6rem;
+  margin-bottom: 1.2rem;
 }
 
 // ============================================================
 // Entry component — the one repeating unit of the whole site
-//   title:  serif 1.1rem (h3 on research/software, .what on dated lists)
+//   title:  1.08rem/650 (h3 on research/software, .what on dated lists)
 //   meta:   sans 0.88rem muted
 //   .when:  optional left date column (dated lists)
 // ============================================================
@@ -110,7 +108,8 @@ $entry-gap: 1.7rem;
 
 main h3 {
   font-size: $entry-title-size;
-  font-weight: 600;
+  font-weight: 650;
+  letter-spacing: -0.01em;
   color: $ink;
   margin-top: $entry-gap;
   margin-bottom: 0.3rem;
@@ -119,9 +118,9 @@ main h3 {
 
 .what {
   grid-column: 2;
-  font-family: $headings-font-family;
   font-size: $entry-title-size;
-  font-weight: 600;
+  font-weight: 650;
+  letter-spacing: -0.01em;
   color: $ink;
   line-height: 1.45;
 }
@@ -185,10 +184,10 @@ main p:has(> .when) .meta {
 div.callout.callout-style-simple,
 div.callout.callout-note {
   border: none !important;
-  border-left: 2px solid $line !important;
-  background: none;
-  padding: 0.1rem 0 0.1rem 1rem;
-  margin: 0.6rem 0 1.7rem;
+  background: #f6f7f6;
+  border-radius: 10px;
+  padding: 0.55rem 1.1rem;
+  margin: 0.7rem 0 1.7rem;
   .callout-title-container,
   .callout-caption-container {
     font-family: $font-family-sans-serif;
@@ -220,17 +219,17 @@ main a:not(.pill):not(.btn) {
 .pill,
 main a.pill {
   display: inline-block;
-  border: 1px solid #d9d9d9;
+  border: none;
   border-radius: 999px;
-  padding: 0.32rem 0.9rem;
-  margin: 0 0.35rem 0.55rem 0;
+  padding: 0.4rem 1rem;
+  margin: 0 0.4rem 0.6rem 0;
   font-size: 0.84rem;
   font-weight: 500;
   color: $body;
+  background: #f1f2f1;
   text-decoration: none;
   transition: all 0.12s ease;
   &:hover {
-    border-color: $accent;
     background: $accent;
     color: #fff;
     text-decoration: none;
@@ -253,7 +252,7 @@ iframe {
 }
 
 .nav-footer {
-  border-top: 1px solid $line;
+  border-top: none;
   margin-top: 4rem;
   color: $faint;
   font-size: 0.78rem;
