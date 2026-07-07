@@ -117,5 +117,12 @@
     "title": "Software",
     "section": "Net climate value pipeline",
     "text": "Net climate value pipeline\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty.\nGitHub"
+  },
+  {
+    "objectID": "software.html#side-projects",
+    "href": "software.html#side-projects",
+    "title": "Software",
+    "section": "Side projects",
+    "text": "Side projects\nYalla — an offline-first workout tracker, built as a dependency-free progressive web app: set and bodyweight logging, spaced-repetition recovery, muscle-balance radar, progress charts. App · GitHub\nClue — a knowledge and debate trainer in the same local-first style: spaced-repetition cards backed by an evidence library with research citations. App · GitHub\nMäander — a bike-routing web app (TypeScript, MapLibre, BRouter) for finding quiet, nature-oriented routes in Germany."
   }
 ]
