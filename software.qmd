@@ -2,7 +2,7 @@
 title: "Software"
 ---
 
-[Statistical software from my research, and a few local-first apps built on the side. Everything is open source on [GitHub](https://github.com/o-frings).]{.lead-line}
+[Statistical software from my research, and a few local-first apps built on the side.]{.lead-line}
 
 ## Research software
 
