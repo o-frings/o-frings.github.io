@@ -1,4 +1,5 @@
 ---
+description: "Academic CV of Oliver Frings: education, positions, publications, talks, grants, and teaching."
 title: "CV"
 ---
 

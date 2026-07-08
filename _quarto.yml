@@ -6,8 +6,11 @@ project:
 
 website:
   title: "Oliver Frings"
-  description: "Environmental and resource economist working on carbon market integrity and public preferences for climate and forest policy."
+  description: "Oliver Frings — economist working on carbon market integrity and public preferences for climate and forest policy. PhD candidate at AgroParisTech and the Climate Economics Chair, Paris."
   site-url: https://o-frings.github.io
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: true
   search: false
   navbar:
     left:
@@ -46,6 +49,29 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Oliver Frings",
+          "url": "https://o-frings.github.io",
+          "jobTitle": "PhD Candidate in Economics",
+          "worksFor": [
+            {"@type": "Organization", "name": "AgroParisTech"},
+            {"@type": "Organization", "name": "Climate Economics Chair"}
+          ],
+          "affiliation": [
+            {"@type": "Organization", "name": "University of Cambridge, Department of Land Economy"}
+          ],
+          "email": "oliver.frings@agroparistech.fr",
+          "sameAs": [
+            "https://orcid.org/0000-0003-2682-2304",
+            "https://scholar.google.com/citations?user=DgFqKHYAAAAJ",
+            "https://www.linkedin.com/in/oliver-frings-x161/",
+            "https://github.com/o-frings"
+          ]
+        }
+        </script>
     include-after-body:
       text: |
         <script>

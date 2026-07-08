@@ -1,4 +1,5 @@
 ---
+description: "Research by Oliver Frings: carbon credit integrity (leakage, storage duration, reversal risk), public preferences for forest conservation and offsetting, discrete choice methods."
 title: "Research"
 ---
 

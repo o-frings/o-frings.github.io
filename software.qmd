@@ -1,4 +1,5 @@
 ---
+description: "Software by Oliver Frings: the klue R package for latent class choice models, a reproducible carbon-credit pipeline, and local-first web apps."
 title: "Software"
 ---
 

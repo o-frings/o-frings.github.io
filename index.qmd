@@ -1,4 +1,5 @@
 ---
+description: "Oliver Frings — PhD candidate in economics at AgroParisTech and the Climate Economics Chair, Paris. Carbon market integrity and public preferences for climate and forest policy."
 title: "Oliver Frings"
 ---
 
