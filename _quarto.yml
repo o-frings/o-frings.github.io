@@ -10,7 +10,6 @@ website:
   site-url: https://o-frings.github.io
   search: false
   navbar:
-    pinned: true
     left:
       - href: index.qmd
         text: About
@@ -19,9 +18,11 @@ website:
       - href: software.qmd
         text: Software
       - href: talks.qmd
-        text: Talks & Policy
+        text: Talks
       - href: cv.qmd
         text: CV
+  page-footer:
+    left: "© 2026 Oliver Frings"
     right:
       - icon: github
         href: https://github.com/o-frings
@@ -32,14 +33,10 @@ website:
       - icon: envelope
         href: mailto:oliver.frings@agroparistech.fr
         aria-label: Email
-  page-footer:
-    center: "© 2026 Oliver Frings"
 
 format:
   html:
     theme: [cosmo, custom.scss]
-    grid:
-      body-width: 720px
     toc: false
     callout-appearance: minimal
     callout-icon: false
@@ -49,3 +46,31 @@ format:
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    include-after-body:
+      text: |
+        <script>
+        // Swipe left/right on touch devices to move between pages
+        (function () {
+          if (!('ontouchstart' in window)) return;
+          var pages = ['index.html', 'research.html', 'software.html', 'talks.html', 'cv.html'];
+          var path = location.pathname.split('/').pop() || 'index.html';
+          var i = pages.indexOf(path);
+          if (i < 0) return;
+          var x0 = null, y0 = 0, t0 = 0;
+          document.addEventListener('touchstart', function (e) {
+            if (e.touches.length !== 1) { x0 = null; return; }
+            x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now();
+          }, { passive: true });
+          document.addEventListener('touchend', function (e) {
+            if (x0 === null) return;
+            var dx = e.changedTouches[0].clientX - x0;
+            var dy = e.changedTouches[0].clientY - y0;
+            var dt = Date.now() - t0;
+            x0 = null;
+            if (dt > 600 || Math.abs(dx) < 70 || Math.abs(dy) > 50) return;
+            var j = dx < 0 ? i + 1 : i - 1;
+            if (j < 0 || j >= pages.length) return;
+            location.href = pages[j];
+          }, { passive: true });
+        })();
+        </script>

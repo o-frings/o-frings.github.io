@@ -40,6 +40,17 @@ $code-block-bg: #f6f7f6;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
 
+  // Headroom: slide away on scroll down, slide back on scroll up (mobile);
+  // stay visible on desktop
+  &.headroom {
+    transition: transform 0.25s ease-in-out;
+  }
+  @media (min-width: 992px) {
+    &.headroom--unpinned {
+      transform: translateY(0) !important;
+    }
+  }
+
   .navbar-title {
     font-size: 1rem;
     font-weight: 700;
@@ -236,6 +247,25 @@ main a.pill {
   }
 }
 
+
+// ============================================================
+// Content measure: default responsive grid, column capped here
+// ============================================================
+main#quarto-document-content > * {
+  max-width: 46rem;
+}
+
+// Quarto's page grid keeps a 500px minimum column that overflows phones;
+// collapse it to a single fluid column on small screens
+@media (max-width: 767.98px) {
+  body .page-columns {
+    grid-template-columns:
+      [screen-start] 1.1em
+      [screen-start-inset page-start page-start-inset body-start-outset body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end body-end-outset page-end-inset page-end screen-end-inset] 1.1em
+      [screen-end] !important;
+  }
+}
 
 // ============================================================
 // Misc
