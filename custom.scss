@@ -74,7 +74,14 @@ $code-block-bg: #f6f7f6;
 // ============================================================
 .quarto-title-block {
   margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
+
+  // The front-matter description is for search engines (meta tag);
+  // don't render it as page content
+  .description,
+  .quarto-title-meta {
+    display: none;
+  }
 
   .title {
     font-size: 2rem;
@@ -103,8 +110,8 @@ main h2 {
   letter-spacing: 0.14em;
   color: $faint;
   font-weight: 600;
-  margin-top: 3.6rem;
-  margin-bottom: 1.2rem;
+  margin-top: 3.5rem;
+  margin-bottom: 1.25rem;
 }
 
 // ============================================================
@@ -114,7 +121,7 @@ main h2 {
 //   .when:  optional left date column (dated lists)
 // ============================================================
 $entry-title-size: 1.08rem;
-$entry-gap: 1.7rem;
+$entry-gap: 1.75rem;
 
 main h3 {
   font-size: $entry-title-size;
@@ -151,7 +158,7 @@ main h3 {
   color: $muted;
   font-size: 0.95rem;
   line-height: 1.65;
-  margin-bottom: 2.2rem;
+  margin-bottom: 2rem;
 }
 
 // Dated entries: fixed date column, title + detail aligned right of it
