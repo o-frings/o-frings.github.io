@@ -1,5 +1,5 @@
 ---
-description: "Talks, policy engagement, and teaching by Oliver Frings: EU carbon farming policy panels, EAERE, BIOECON, and stated-preference courses."
+description: "Policy panels on EU carbon farming, conference presentations (EAERE, BIOECON, WCERE), and teaching."
 title: "Talks & Policy"
 ---
 

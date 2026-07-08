@@ -29,8 +29,6 @@ title: "Oliver Frings"
 
 ## Education
 
-[2023–2026]{.when} [PhD in Economics]{.what} [AgroParisTech, Bureau d'Économie Théorique et Appliquée (BETA), Nancy & Palaiseau — expected December 2026]{.meta}
-
 [2020–2022]{.when} [MSc in European Forestry (Erasmus Mundus)]{.what} [University of Eastern Finland & University of Lleida — thesis published in *Ecological Economics* (2023)]{.meta}
 
 [2016–2020]{.when} [BSc in Forest Sciences]{.what} [Dresden University of Technology]{.meta}

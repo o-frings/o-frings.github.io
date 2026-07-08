@@ -4,7 +4,7 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Education, positions, publications, talks, grants, and teaching in one document."
+    "text": "The complete academic record as a single PDF."
   },
   {
     "objectID": "cv.html#curriculum-vitae",
@@ -39,7 +39,7 @@
     "href": "index.html#education",
     "title": "Oliver Frings",
     "section": "Education",
-    "text": "Education\n2023–2026 PhD in Economics AgroParisTech, Bureau d’Économie Théorique et Appliquée (BETA), Nancy & Palaiseau — expected December 2026\n2020–2022 MSc in European Forestry (Erasmus Mundus) University of Eastern Finland & University of Lleida — thesis published in Ecological Economics (2023)\n2016–2020 BSc in Forest Sciences Dresden University of Technology"
+    "text": "Education\n2020–2022 MSc in European Forestry (Erasmus Mundus) University of Eastern Finland & University of Lleida — thesis published in Ecological Economics (2023)\n2016–2020 BSc in Forest Sciences Dresden University of Technology"
   },
   {
     "objectID": "index.html#awards",
@@ -60,7 +60,7 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "My research sits in environmental and resource economics, with two connected strands: the supply side of carbon markets (what a credit is actually worth once leakage, storage duration, and reversal risk are priced) and the demand side (how the public values ecosystem services and the institutions that provide them). Drafts of unpublished work are available on request."
+    "text": "Working papers, publications, and the thesis, grouped by status. Drafts of unpublished work are available on request."
   },
   {
     "objectID": "research.html#under-review",
@@ -144,7 +144,7 @@
     "href": "software.html#research-software",
     "title": "Software",
     "section": "Research software",
-    "text": "Research software\n\nklue\nR package · GitHub · R-universe\nAn R package implementing the clustering-initialised specification workflow for latent class multinomial logit (LCMNL) models from the companion paper: clustering-based initialisation, multi-start maximum likelihood, and segment selection via BIC with a classification-entropy diagnostic, benchmarked against mixed logit.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\nNet climate value pipeline\nR pipeline · GitHub\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits: calibration of leakage, storage-duration, and reversal-risk deductions for sixteen forest management practices across three European biomes, with Monte Carlo uncertainty."
+    "text": "Research software\n\nklue\nR package · GitHub · R-universe\nAn R package implementing the specification workflow for latent class choice models from the companion paper: clustering-based initialisation, multi-start estimation, and segment selection.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\nNet climate value pipeline\nR pipeline · GitHub\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits (paper): data, calibration, and simulation code."
   },
   {
     "objectID": "software.html#side-projects",
