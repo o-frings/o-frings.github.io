@@ -6,7 +6,7 @@ title: "Oliver Frings"
 <!-- TODO: when a headshot exists, add it as assets/profile.jpg and place
      <img src="assets/profile.jpg" class="hero-photo"> floated right of the intro. -->
 
-[PhD candidate in Economics at AgroParisTech]{.lead-line}
+[Economist · Pricing credibility in nature markets]{.lead-line}
 
 ## About
 
