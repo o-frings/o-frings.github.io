@@ -23,7 +23,7 @@ $headings-font-weight: 600;
 $font-size-root: 17px;
 $line-height-base: 1.7;
 
-$navbar-bg: rgba(255, 255, 255, 0.9);
+$navbar-bg: #ffffff;
 $navbar-fg: $ink;
 $code-block-bg: #f6f7f6;
 
@@ -33,17 +33,16 @@ $code-block-bg: #f6f7f6;
 // Navbar
 // ============================================================
 .navbar {
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   border-bottom: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
 
   // Headroom: slide away on scroll down, slide back on scroll up (mobile);
-  // stay visible on desktop
+  // stay visible on desktop. Own compositing layer for smooth animation.
   &.headroom {
     transition: transform 0.25s ease-in-out;
+    will-change: transform;
   }
   @media (min-width: 992px) {
     &.headroom--unpinned {
@@ -287,4 +286,16 @@ iframe {
   color: $faint;
   font-size: 0.78rem;
   letter-spacing: 0.02em;
+
+  .nav-link i.bi {
+    font-size: 1.25rem;
+    color: $muted;
+    transition: color 0.12s ease;
+  }
+  .nav-link:hover i.bi {
+    color: $accent;
+  }
+  .nav-item {
+    margin-left: 0.5rem;
+  }
 }
