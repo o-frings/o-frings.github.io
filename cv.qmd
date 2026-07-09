@@ -3,9 +3,39 @@ description: "Academic CV: education, positions, publications, talks, grants, an
 title: "CV"
 ---
 
-[The complete academic record as a single PDF.]{.lead-line}
+[Education, awards, and grants below; the complete record as a PDF at the end.]{.lead-line}
 
-## Curriculum vitae
+## Education
+
+[2023–2026]{.when} [PhD in Economics]{.what} [AgroParisTech, Bureau d'Économie Théorique et Appliquée (BETA), Nancy & Palaiseau — expected December 2026]{.meta}
+
+[2020–2022]{.when} [MSc in European Forestry (Erasmus Mundus)]{.what} [University of Eastern Finland & University of Lleida — thesis published in *Ecological Economics* (2023)]{.meta}
+
+[2016–2020]{.when} [BSc in Forest Sciences]{.what} [Dresden University of Technology]{.meta}
+
+## Awards
+
+[2024]{.when} [Highly Commended Paper Award]{.what} [8th Workshop on Non-Market Valuation, University of Leeds]{.meta}
+
+[2023]{.when} [Extraordinary Prize for Master's Degrees]{.what} [University of Lleida — best academic record 2021/22]{.meta}
+
+## Grants
+
+[2025]{.when} [FOCUSED Seed Project Grant]{.what} [AAP ARTEMIS — €15,000 project grant, €2,000 allocated to survey expansion]{.meta}
+
+[2024]{.when} [FairCarboN Research Exchange Grant]{.what} [French National Research Agency — €7,000, research exchange to the University of Cambridge]{.meta}
+
+[2024]{.when} [DrEAM Research Exchange Grant]{.what} [University of Lorraine — €5,300, research exchange to the University of Cambridge]{.meta}
+
+[2024]{.when} [ABIES Research Exchange Grant]{.what} [AgroParisTech — €1,000, research exchange to the University of Cambridge]{.meta}
+
+[2024–2026]{.when} [Agreenium (EIR-A) — DESSE International Mobility Grant]{.what} [INRAE / Agreenium — €2,000, research exchange to the University of Cambridge]{.meta}
+
+[2022]{.when} [ORION Master's Grant]{.what} [French National Research Agency — €7,000, research scholarship for excellent foreign students]{.meta}
+
+[2021]{.when} [ETSEA Grant Programme]{.what} [University of Lleida — €2,500, Erasmus Mundus European Forestry scholarship]{.meta}
+
+## Full document
 
 [Download PDF](assets/CV_Oliver_Frings.pdf){.pill}
 
