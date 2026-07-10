@@ -32,23 +32,20 @@ $code-block-bg: #f6f7f6;
 // ============================================================
 // Navbar
 // ============================================================
+// Header scrolls with the page (no fixed bar, no hide/show animation)
+#quarto-header {
+  position: static !important;
+  transform: none !important;
+}
+body.nav-fixed {
+  padding-top: 0 !important;
+}
+
 .navbar {
   border-bottom: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-
-  // Headroom: slide away on scroll down, slide back on scroll up (mobile);
-  // stay visible on desktop. Own compositing layer for smooth animation.
-  &.headroom {
-    transition: transform 0.25s ease-in-out;
-    will-change: transform;
-  }
-  @media (min-width: 992px) {
-    &.headroom--unpinned {
-      transform: translateY(0) !important;
-    }
-  }
 
   .navbar-title {
     font-size: 1rem;
