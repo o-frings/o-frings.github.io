@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9300965e57e082ead9dac98f6e13ea25.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0c1dfcf6d3d6fc055d01d5c4bc7f28ff.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -724,6 +724,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
   </div>
 </footer>
+<script>
+// Header tracks the scroll 1:1 (Yalla-style): slides out with
+// downward scroll, slides back in step with upward scroll
+(function () {
+  var header = document.getElementById('quarto-header');
+  if (!header) return;
+  var lastY = window.scrollY, ty = 0;
+  window.addEventListener('scroll', function () {
+    var y = Math.max(0, window.scrollY);
+    var d = y - lastY;
+    lastY = y;
+    var h = header.offsetHeight;
+    ty = Math.min(0, Math.max(-h, ty - d));
+    if (y <= 0) ty = 0;
+    header.style.transform = 'translateY(' + ty + 'px)';
+  }, { passive: true });
+})();
+</script>
 <script>
 // Swipe left/right on touch devices to move between pages
 (function () {

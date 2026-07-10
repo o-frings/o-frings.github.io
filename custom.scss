@@ -32,13 +32,14 @@ $code-block-bg: #f6f7f6;
 // ============================================================
 // Navbar
 // ============================================================
-// Header scrolls with the page (no fixed bar, no hide/show animation)
+// Header reveal is driven 1:1 by the scroll (script in _quarto.yml);
+// suppress headroom's own class-based transforms and animations
 #quarto-header {
-  position: static !important;
-  transform: none !important;
-}
-body.nav-fixed {
-  padding-top: 0 !important;
+  transition: none !important;
+  &.headroom--unpinned,
+  &.headroom--pinned {
+    transform: none;
+  }
 }
 
 .navbar {

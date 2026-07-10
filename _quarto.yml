@@ -76,6 +76,24 @@ format:
     include-after-body:
       text: |
         <script>
+        // Header tracks the scroll 1:1 (Yalla-style): slides out with
+        // downward scroll, slides back in step with upward scroll
+        (function () {
+          var header = document.getElementById('quarto-header');
+          if (!header) return;
+          var lastY = window.scrollY, ty = 0;
+          window.addEventListener('scroll', function () {
+            var y = Math.max(0, window.scrollY);
+            var d = y - lastY;
+            lastY = y;
+            var h = header.offsetHeight;
+            ty = Math.min(0, Math.max(-h, ty - d));
+            if (y <= 0) ty = 0;
+            header.style.transform = 'translateY(' + ty + 'px)';
+          }, { passive: true });
+        })();
+        </script>
+        <script>
         // Swipe left/right on touch devices to move between pages
         (function () {
           if (!('ontouchstart' in window)) return;
