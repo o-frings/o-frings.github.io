@@ -19,6 +19,14 @@ title: "Oliver Frings"
 [LinkedIn](https://www.linkedin.com/in/oliver-frings-x161/){.pill}
 [CV (PDF)](assets/CV_Oliver_Frings.pdf){.pill}
 
+## Selected work
+
+[**The Net Climate Value of Carbon Credits** — only 11–49% of a forest carbon credit survives as real climate value once leakage, storage duration, and reversal risk are priced together. [More →](research.qmd#the-net-climate-value-of-carbon-credits-pricing-leakage-time-and-reversal)]{.meta}
+
+[**One Divide, Two Countries** — climate concern, more than income or politics, splits public support for forest conservation across Austria and France. [More →](research.qmd#one-divide-two-countries-climate-concern-splits-support-for-forest-conservation-programmes)]{.meta}
+
+[**klue** — a pre-registrable workflow that makes latent-class choice models reproducible. [More →](research.qmd#a-clustering-initialised-specification-workflow-for-latent-class-choice-models)]{.meta}
+
 ## Positions
 
 [2023–present]{.when} [PhD Candidate in Economics]{.what} [[AgroParisTech](https://www.agroparistech.fr/) · Bureau d'Économie Théorique et Appliquée (BETA), Nancy — thesis *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, defence expected December 2026]{.meta}
