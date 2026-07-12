@@ -22,8 +22,6 @@ website:
         text: Software
       - href: talks.qmd
         text: Talks
-      - href: cv.qmd
-        text: CV
   page-footer:
     left: "© 2026 Oliver Frings"
     right:

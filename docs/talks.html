@@ -125,10 +125,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./talks.html" aria-current="page"> 
 <span class="menu-text">Talks</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
-<span class="menu-text">CV</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -662,7 +658,7 @@ ul.task-list li input[type="checkbox"] {
 // Swipe left/right on touch devices to move between pages
 (function () {
   if (!('ontouchstart' in window)) return;
-  var pages = ['index.html', 'research.html', 'software.html', 'talks.html', 'cv.html'];
+  var pages = ['index.html', 'research.html', 'software.html', 'talks.html'];
   var path = location.pathname.split('/').pop() || 'index.html';
   var i = pages.indexOf(path);
   if (i < 0) return;
