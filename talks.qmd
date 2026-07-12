@@ -35,6 +35,8 @@ title: "Talks & Policy"
 
 [June 2024]{.when} [2nd Action versus Inaction Facing Climate Change (AICC) Conference]{.what} [Strasbourg · poster]{.meta}
 
+[Sept. 2023]{.when} [10th FAERE Annual Conference]{.what} [French Association of Environmental and Resource Economists, Montpellier · oral presentation]{.meta}
+
 [June 2023]{.when} [28th EAERE Annual Conference]{.what} [European Association of Environmental and Resource Economists, Limassol · oral presentation]{.meta}
 
 ## Seminars
