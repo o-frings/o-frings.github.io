@@ -27,6 +27,10 @@ title: "Oliver Frings"
 
 [**klue** — a pre-registrable workflow that makes latent-class choice models reproducible. [More →](research.qmd#a-clustering-initialised-specification-workflow-for-latent-class-choice-models)]{.meta}
 
+## Upcoming events
+
+[Sept. 2026]{.when} [XXVII Annual BIOECON Conference]{.what} [St John's College, University of Cambridge · oral presentation]{.meta}
+
 ## Positions
 
 [2023–present]{.when} [PhD Candidate in Economics]{.what} [[AgroParisTech](https://www.agroparistech.fr/) · Bureau d'Économie Théorique et Appliquée (BETA), Nancy — thesis *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, defence expected December 2026]{.meta}
