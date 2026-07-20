@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://o-frings.github.io/index.html</loc>
-    <lastmod>2026-07-09T10:42:34.248Z</lastmod>
-  </url>
-  <url>
     <loc>https://o-frings.github.io/research.html</loc>
-    <lastmod>2026-07-08T22:56:44.612Z</lastmod>
+    <lastmod>2026-07-20T13:04:23.125Z</lastmod>
   </url>
   <url>
     <loc>https://o-frings.github.io/talks.html</loc>
-    <lastmod>2026-07-08T22:56:27.358Z</lastmod>
+    <lastmod>2026-07-20T13:04:24.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://o-frings.github.io/index.html</loc>
+    <lastmod>2026-07-20T13:04:25.146Z</lastmod>
   </url>
   <url>
     <loc>https://o-frings.github.io/software.html</loc>
-    <lastmod>2026-07-08T22:57:37.682Z</lastmod>
+    <lastmod>2026-07-20T13:04:25.621Z</lastmod>
   </url>
 </urlset>
