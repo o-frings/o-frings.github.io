@@ -3,8 +3,7 @@ description: "Oliver Frings — PhD candidate in economics at AgroParisTech and 
 title: "Oliver Frings"
 ---
 
-<!-- TODO: when a headshot exists, add it as assets/profile.jpg and place
-     <img src="assets/profile.jpg" class="hero-photo"> floated right of the intro. -->
+<img src="assets/profile.jpg" class="hero-photo" alt="Oliver Frings" width="168" height="168">
 
 [Environmental economist · Pricing credibility in nature markets]{.lead-line}
 

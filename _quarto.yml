@@ -9,8 +9,10 @@ website:
   description: "Oliver Frings — economist working on carbon market integrity and public preferences for climate and forest policy. PhD candidate at AgroParisTech and the Climate Economics Chair, Paris."
   site-url: https://o-frings.github.io
   favicon: assets/favicon.svg
+  image: assets/profile.jpg
   open-graph: true
-  twitter-card: true
+  twitter-card:
+    card-style: summary
   search: false
   navbar:
     left:
@@ -54,6 +56,7 @@ format:
           "@type": "Person",
           "name": "Oliver Frings",
           "url": "https://o-frings.github.io",
+          "image": "https://o-frings.github.io/assets/profile.jpg",
           "jobTitle": "PhD Candidate in Economics",
           "worksFor": [
             {"@type": "Organization", "name": "AgroParisTech"},
