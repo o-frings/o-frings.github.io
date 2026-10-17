@@ -15,7 +15,7 @@ title: "Talks & Policy"
 
 [April 2025]{.when} [Invited panellist · ThinkForest: Ask a Scientist — Carbon Farming in the European Forest Sector]{.what} [Panel on the EFI report *Carbon Farming in the European Forestry Sector*]{.meta}
 
-[Oct. 2024]{.when} [Invited expert · ThinkForest: What Do We Know About Carbon Farming, Brussels]{.what} [As co-author, presented the EFI report *Carbon Farming in the European Forestry Sector* to European Commission officials and EU Member State attachés at the Permanent Representation of Austria to the EU; roundtable on the EU Carbon Removals Certification Framework]{.meta}
+[Oct. 2024]{.when} [ThinkForest: What Do We Know About Carbon Farming, Brussels]{.what} [Launch of the EFI report *Carbon Farming in the European Forestry Sector* (co-author) at the Permanent Representation of Austria to the EU; spoke in the discussion that followed, held under the Chatham House Rule]{.meta}
 
 ## Conference presentations
 

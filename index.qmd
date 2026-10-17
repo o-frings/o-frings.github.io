@@ -12,7 +12,7 @@ title: "Oliver Frings"
 
 [I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.]{.lead-line}
 
-[Email](mailto:oliver.frings@agroparistech.fr){.pill}
+[Email](mailto:oliver.frings@ik.me){.pill}
 [Google Scholar](https://scholar.google.com/citations?user=DgFqKHYAAAAJ){.pill}
 [ORCID](https://orcid.org/0000-0003-2682-2304){.pill}
 [GitHub](https://github.com/o-frings){.pill}
@@ -21,19 +21,19 @@ title: "Oliver Frings"
 
 ## Selected work
 
-[**The Net Climate Value of Carbon Credits** — only 11–49% of a forest carbon credit survives as real climate value once leakage, storage duration, and reversal risk are priced together. [More →](research.qmd#the-net-climate-value-of-carbon-credits-pricing-leakage-time-and-reversal)]{.meta}
+[**The Net Climate Value of Carbon Credits** — only 12–56% of a forest carbon credit survives as real climate value once leakage, storage duration, and reversal risk are priced together. [More →](research.qmd#net-climate-value)]{.meta}
 
-[**One Divide, Two Countries** — climate concern, more than income or politics, splits public support for forest conservation across Austria and France. [More →](research.qmd#one-divide-two-countries-climate-concern-splits-support-for-forest-conservation-programmes)]{.meta}
+[**Two Countries, One Divide** — fear of climate change splits public support for forest conservation the same way in Austria and France. [More →](research.qmd#two-countries-one-divide)]{.meta}
 
-[**klue** — a pre-registrable workflow that makes latent-class choice models reproducible. [More →](research.qmd#a-clustering-initialised-specification-workflow-for-latent-class-choice-models)]{.meta}
+[**Classes or Continuum?** — a pre-registrable rule for specifying latent class choice models, implemented in the R package klue. [More →](research.qmd#classes-or-continuum)]{.meta}
 
 ## Upcoming events
 
-[Sept. 2026]{.when} [XXVII Annual BIOECON Conference]{.what} [St John's College, University of Cambridge · oral presentation]{.meta}
+[10 Dec. 2026]{.when} [PhD defence]{.what} [*Pricing Credibility: Supply-Side Integrity and Public Support in Nature Markets* · AgroParisTech, Nancy]{.meta}
 
 ## Positions
 
-[2023–present]{.when} [PhD Candidate in Economics]{.what} [[AgroParisTech](https://www.agroparistech.fr/) · Bureau d'Économie Théorique et Appliquée (BETA), Nancy — thesis *Pricing Credibility: Supply-Side Integrity and Public Acceptability in Nature Markets*, defence expected December 2026]{.meta}
+[2023–present]{.when} [PhD Candidate in Economics]{.what} [[AgroParisTech](https://www.agroparistech.fr/) · Bureau d'Économie Théorique et Appliquée (BETA), Nancy — thesis *Pricing Credibility: Supply-Side Integrity and Public Support in Nature Markets*, defence 10 December 2026]{.meta}
 
 [2025–present]{.when} [Research Fellow]{.what} [[Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/), Paris]{.meta}
 

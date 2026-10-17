@@ -32,7 +32,7 @@ website:
         href: https://www.linkedin.com/in/oliver-frings-x161/
         aria-label: LinkedIn
       - icon: envelope
-        href: mailto:oliver.frings@agroparistech.fr
+        href: mailto:oliver.frings@ik.me
         aria-label: Email
 
 format:
@@ -62,7 +62,7 @@ format:
           "affiliation": [
             {"@type": "Organization", "name": "University of Cambridge, Department of Land Economy"}
           ],
-          "email": "oliver.frings@agroparistech.fr",
+          "email": "oliver.frings@ik.me",
           "sameAs": [
             "https://orcid.org/0000-0003-2682-2304",
             "https://scholar.google.com/citations?user=DgFqKHYAAAAJ",
@@ -95,7 +95,7 @@ format:
         // Swipe left/right on touch devices to move between pages
         (function () {
           if (!('ontouchstart' in window)) return;
-          var pages = ['index.html', 'research.html', 'software.html', 'talks.html', 'cv.html'];
+          var pages = ['index.html', 'research.html', 'software.html', 'talks.html'];
           var path = location.pathname.split('/').pop() || 'index.html';
           var i = pages.indexOf(path);
           if (i < 0) return;
