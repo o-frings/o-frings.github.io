@@ -19,7 +19,7 @@ install.packages("klue", repos = "https://o-frings.r-universe.dev")
 
 ### Net climate value pipeline
 
-[R pipeline · [GitHub](https://github.com/o-frings/net-climate-value)]{.meta}
+[R pipeline · To be made accessible upon publication]{.meta}
 
 The reproducible R pipeline behind *The Net Climate Value of Carbon Credits* ([paper](research.qmd)): data, calibration, and simulation code.
 
