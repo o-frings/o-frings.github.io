@@ -20,11 +20,11 @@ title: "Oliver Frings"
 
 ## Selected work
 
-[**The Net Climate Value of Carbon Credits** — only 12–56% of a forest carbon credit survives as real climate value once leakage, storage duration, and reversal risk are priced together. [More →](research.qmd#net-climate-value)]{.meta}
+[**Classes or Continuum?** — a pre-registrable rule for specifying latent class choice models, implemented in the R package klue. [More →](research.qmd#classes-or-continuum)]{.meta}
 
 [**Two Countries, One Divide** — fear of climate change splits public support for forest conservation the same way in Austria and France. [More →](research.qmd#two-countries-one-divide)]{.meta}
 
-[**Classes or Continuum?** — a pre-registrable rule for specifying latent class choice models, implemented in the R package klue. [More →](research.qmd#classes-or-continuum)]{.meta}
+[**The Net Climate Value of Carbon Credits** — 9–57% of a verified forest carbon tonne survives as net climate value once leakage, storage duration, and reversal risk are priced together. [More →](research.qmd#net-climate-value)]{.meta}
 
 ## Upcoming events
 
@@ -36,4 +36,4 @@ title: "Oliver Frings"
 
 [2025–present]{.when} [Research Fellow]{.what} [[Climate Economics Chair](https://www.chaireeconomieduclimat.org/en/), Paris]{.meta}
 
-[2025–present]{.when} [Visiting Scholar]{.what} [Department of Land Economy ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)), University of Cambridge]{.meta}
+[2025–present]{.when} [Visiting Scholar]{.what} [Department of Land Economy ([C-EENRG](https://www.ceenrg.landecon.cam.ac.uk/)) and Darwin College, University of Cambridge]{.meta}

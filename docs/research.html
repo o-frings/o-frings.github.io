@@ -73,7 +73,8 @@ ul.task-list li input[type="checkbox"] {
     {"@type": "Organization", "name": "Climate Economics Chair"}
   ],
   "affiliation": [
-    {"@type": "Organization", "name": "University of Cambridge, Department of Land Economy"}
+    {"@type": "Organization", "name": "University of Cambridge, Department of Land Economy"},
+    {"@type": "Organization", "name": "University of Cambridge, Darwin College"}
   ],
   "email": "oliver.frings@ik.me",
   "sameAs": [
@@ -170,9 +171,9 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="lead-line">Working papers, publications, and the thesis, grouped by status. Drafts of unpublished work are available on request.</span></p>
 <section id="working-papers" class="level2">
 <h2 class="anchored" data-anchor-id="working-papers">Working papers</h2>
-<section id="net-climate-value" class="level3">
-<h3 class="anchored" data-anchor-id="net-climate-value">The Net Climate Value of Carbon Credits: Pricing Leakage, Time, and Reversal</h3>
-<p><span class="meta">with Jens Abildtrup, Philippe Delacote, Andreas Kontoleon, Ben Filewod, Hannes Böttcher, Tommaso Chiti, Ana Rey, Jurij Diaci, Aleksi Lehtonen, Helga Pülzl, Andreas Schindlbacher, and Miguel A. Zavala · Working paper · Replication code to be made accessible upon publication</span></p>
+<section id="classes-or-continuum" class="level3">
+<h3 class="anchored" data-anchor-id="classes-or-continuum">Classes or Continuum? A Pre-Registrable Specification Rule for Latent Class Logit Models</h3>
+<p><span class="meta">Companion R package: <a href="./software.html">klue</a></span></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -185,14 +186,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A forest carbon credit is issued for one tonne of CO₂ kept from the atmosphere, but rarely delivers the full tonne. After on-site verification, three channels — market leakage, finite storage duration, and reversal risk — erode credited carbon. We calibrate each into one issuance rule across sixteen forest practices and three European biomes, propagating parameter uncertainty. Only 12–56% survives as net climate value (median 24%), and five European schemes over-credit by 29–59%. Storage duration is the largest shortfall: schemes credit 30- and 100-year contracts identically. Reaching 100 MtCO₂ yr⁻¹ of genuine removals needs ~121–265 Mha — approaching or exceeding the EU’s 160 Mha forest estate — while crediting the shortfall at face value over-credits by ~85 MtCO₂e yearly, a $4–28 billion social cost. Rankings and every scheme’s over-crediting hold under plausible parameters. The EU’s newly adopted carbon-farming methodology leaves all three channels unpriced; the forest-management methodology now in preparation should price them.</p>
+<p>Latent class multinomial logit (LCMNL) models describe preference heterogeneity as a finite number of classes, mixed multinomial logit (MMNL) models as a continuous mixing distribution. Fitting an LCMNL requires three choices: starting values for a likelihood with many local maxima, the number of classes, and whether classes fit better than a continuous distribution. This paper proposes a pre-registrable rule for all three: starting values from clustering respondents by their choices, the number of classes by BIC with an entropy check on the certainty of class assignment, and an MMNL benchmark that reads preference heterogeneity as continuous when its BIC is at least six points lower. A Monte Carlo study evaluates the rule under a blocked D-efficient design, as used in practice, and an idealised randomised design. Under the blocked design the clustering starts reach the highest log-likelihood found more often than starts from the pooled MNL or random partitions, and about as often as Apollo’s default search, in 2–3 seconds against 38–78 minutes; under the randomised design the clustering and pooled-MNL starts reach it equally often. BIC selects the true number of classes in 94.5% of blocked-design conditions. The benchmark picks the LCMNL in 63 of 64 discrete conditions and never when preferences are continuous, even where BIC alone finds spurious classes. On five public stated-choice datasets the MMNL has the lowest BIC on the four from real respondents and ties on the synthetic one.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="audited-alike" class="level3">
-<h3 class="anchored" data-anchor-id="audited-alike">Audited Alike, Valued Alike? Household Preferences for Public or Private Delivery of EU and Tropical Forest Carbon</h3>
-<p><span class="meta">Choice experiment in France, Germany and Denmark · Pre-registration on OSF before the pilot</span></p>
+<section id="two-countries-one-divide" class="level3">
+<h3 class="anchored" data-anchor-id="two-countries-one-divide">Two Countries, One Divide: Fear of Climate Change Splits Support for Forest Conservation</h3>
+<p><span class="meta">with Jens Abildtrup, David W. Shanafelt, Antonello Lobianco, and Harald Vacik · Highly Commended Paper Award, 8th Workshop on Non-Market Valuation (Leeds, 2024)</span></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -205,14 +206,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Who should close the EU’s 2030 land-sector gap, and how much do households weigh the damage that leaving it open causes others? In a pre-registered choice experiment in France, Germany and Denmark, respondents choose between emissions cuts, inaction and forest programmes varying in organiser, location and recipient. The EU must soon decide how far certified markets and international credits should stand in for public action at home. With quality audited, incomplete-contract theory gives no efficiency reason to prefer either provider, and carbon is a global public good. Two hypotheses test whether households nonetheless care who delivers a tonne, and whether tropical credits, the focus of over-crediting concerns, change this. A randomised treatment shows half the households their share of worldwide damage from inaction. Two treatment hypotheses test whether this changes support for action and whether households weigh it like money paid, as a global social cost of carbon assumes.</p>
+<p>Who would pay for forest conservation, and why? Public programmes depend on the answer, yet studies report average willingness to pay, which hides the divides beneath it, and opinions on climate change have become politically polarised. Discrete choice experiments in Austria (N = 595) and France (N = 1,874) value publicly funded programmes that restore damaged private forests with climate-adapted stands. We model preference heterogeneity with a stated selection rule and report every model we estimate. The same divide appears in both countries: three quarters of respondents support the programmes, one quarter mostly declines to pay. Fear of climate change draws the line, most sharply in Austria; whether people believe that climate change can still be stopped makes no difference. Supporters would pay three to four times as much as the reluctant for climate-adapted forests, similar amounts in both countries, and in Austria amounts of the order of the planting costs. Climate concern divides public support for forest conservation; local party politics does not.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="two-countries-one-divide" class="level3">
-<h3 class="anchored" data-anchor-id="two-countries-one-divide">Two Countries, One Divide: Fear of Climate Change Splits Support for Forest Conservation</h3>
-<p><span class="meta">with Jens Abildtrup, David W. Shanafelt, Antonello Lobianco, and Harald Vacik · Highly Commended Paper Award, 8th Workshop on Non-Market Valuation (Leeds, 2024)</span></p>
+<section id="audited-alike" class="level3">
+<h3 class="anchored" data-anchor-id="audited-alike">Audited Alike, Valued Alike? Household Preferences for Public or Private Delivery of EU and Tropical Forest Carbon</h3>
+<p><span class="meta">Choice experiment pre-registered on OSF for France, Germany and Denmark · Five French pilot rounds</span></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -225,14 +226,14 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Who would pay for forest conservation, and why? Public programmes depend on the answer, yet studies report average willingness to pay, which hides the divides beneath it, and opinions on climate change have become politically polarised. Discrete choice experiments in Austria (N = 595) and France (N = 1,874) value publicly funded programmes that restore damaged private forests with climate-adapted stands. We model preference heterogeneity with a stated selection rule and report every model we estimate. The same divide appears in both countries: three quarters of respondents support the programmes, one quarter mostly declines to pay. Fear of climate change draws the line, most sharply in Austria; whether people believe that climate change can still be stopped makes no difference. Supporters would pay three to four times as much as the reluctant for climate-adapted forests, similar amounts in both countries, and in Austria amounts of the order of the planting costs. Climate concern divides public support for forest conservation; local party politics does not.</p>
+<p>To close its projected 2030 shortfall in land-sector removals, the EU can buy forest tonnes at home or abroad, from public or private providers, or cut emissions at source. With quality fixed by audit, I estimate how much households value who delivers a tonne and where and, from the same choices, how much weight they give climate damage that falls on others. In five exploratory French pilot rounds of a choice experiment pre-registered for France, Germany and Denmark, households were willing to pay slightly more for public than for private delivery in the EU, more for EU than for tropical forests and far more for a forest programme than for cutting emissions at source. Shown their household’s share of the worldwide damage, they gave this harm to others less weight than their own money, below the full weight that appraisal at a global social cost of carbon gives it. For the review of the EU’s removal certification and for the 2040 target, private delivery and tropical credits thus draw less support than public removals in the EU, and forest removals more than cuts at source.</p>
 </div>
 </div>
 </div>
 </section>
-<section id="classes-or-continuum" class="level3">
-<h3 class="anchored" data-anchor-id="classes-or-continuum">Classes or Continuum? A Pre-Registrable Specification Rule for Latent Class Logit Models</h3>
-<p><span class="meta">Companion R package: <a href="./software.html">klue</a></span></p>
+<section id="net-climate-value" class="level3">
+<h3 class="anchored" data-anchor-id="net-climate-value">The Net Climate Value of Carbon Credits: Pricing Leakage, Time, and Reversal</h3>
+<p><span class="meta">with Jens Abildtrup, Philippe Delacote, Andreas Kontoleon, Ben Filewod, Hannes Böttcher, Tommaso Chiti, Ana Rey, Jurij Diaci, Aleksi Lehtonen, Helga Pülzl, Andreas Schindlbacher, and Miguel A. Zavala · Working paper · Replication code to be made accessible upon publication</span></p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="Abstract">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -245,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="callout-4" class="callout-4-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Latent class multinomial logit (LCMNL) models describe preference heterogeneity as discrete classes, mixed multinomial logit (MMNL) models as a continuous distribution. Fitting an LCMNL requires three choices: starting values for a likelihood with many local maxima, the number of classes, and whether classes fit better than a continuous distribution. This paper proposes a rule for all three that can be pre-registered. Starting values come from clustering respondents by their choices and fitting a multinomial logit (MNL) to each cluster. The Bayesian information criterion (BIC) sets the number of classes, with an entropy check on the certainty of class assignment. An MMNL is the benchmark: if its BIC is lower, the heterogeneity is treated as continuous. A Monte Carlo study evaluates the rule under a blocked D-efficient design, as used in practice, and an idealised randomised design; five public datasets illustrate it. Under the blocked design, 93% of clustering starts reach the highest log-likelihood found, against 78–81% of starts from random partitions or the pooled MNL; under the randomised design clustering has no advantage. Six clustering starts reach it about as often as Apollo’s start-value search, in a fraction of the time. BIC selects the true number of classes in 94.5% of blocked-design datasets. The benchmark always picks the LCMNL when simulated preferences are discrete and never when they are continuous, even where BIC alone finds spurious classes. On the public datasets the MMNL fits best on the four with real choices and ties with the LCMNL on the synthetic one.</p>
+<p>A forest carbon credit certifies one tonne of CO₂ kept from the atmosphere. After verification, three channels erode credited carbon: market leakage, finite storage duration and reversal risk. We calibrate each into one issuance rule across sixteen forest practices and three European biomes, propagating parameter uncertainty. Net climate value, the surviving share, is 9–57% (median 24%); five European schemes over-credit against it by 29–59%. Storage duration is the largest shortfall: schemes credit 30- and 100-year contracts identically. Genuine removals of 100 MtCO₂ yr⁻¹ would need ~112–336 Mha, up to twice the EU’s forest estate. Closing the 2030 land-sink gap with face-value credits would over-credit ~85 MtCO₂e a year, a €10–27 billion social cost. Levels depend on the permanence benchmark; rankings and every scheme’s over-crediting hold across the parameters tested. The EU’s adopted carbon-farming methodology prices only reversal risk; its forest-management methodology, in preparation, can price all three.</p>
 </div>
 </div>
 </div>
@@ -278,8 +279,8 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="phd-thesis">PhD thesis</h2>
 <section id="pricing-credibility-supply-side-integrity-and-public-support-in-nature-markets" class="level3">
 <h3 class="anchored" data-anchor-id="pricing-credibility-supply-side-integrity-and-public-support-in-nature-markets">Pricing Credibility: Supply-Side Integrity and Public Support in Nature Markets</h3>
-<p><span class="meta">AgroParisTech · defence 10 December 2026</span></p>
-<p>The thesis asks what makes nature markets credible, in three parts. The first builds the measurement instrument: a specification workflow for latent class choice models. The second studies demand-side legitimacy: who supports forest conservation programmes and carbon offsetting, and how that support depends on the institutions delivering them. The third turns to supply-side integrity: an issuance rule that prices leakage, storage duration, and reversal risk into forest carbon credits.</p>
+<p><span class="meta">AgroParisTech · submitted November 2026 · defence 10 December 2026, Nancy</span></p>
+<p>Forests take up carbon and shelter most land species, so they matter for climate and biodiversity alike. In the EU most forest is private, and its carbon and habitat benefit mostly others, so owners may provide less of them than society wants. One way to close this gap is to pay owners, through public programmes or carbon credits sold to firms. Their worth depends on how much society values what they fund and on how much carbon a paid-for tonne delivers. In Austria and France, about three in four households support such programmes and would pay most for climate-adapted mixed forests. In French pilot surveys, households slightly preferred a tonne stored by a public body to one stored by a private firm. After verification, cutting avoided in one forest can move elsewhere, storage can end, and fire can release the carbon. Once these losses are deducted, 9 to 57 per cent of a verified tonne can be credited, and five European schemes deduct only part of them.</p>
 
 
 </section>
