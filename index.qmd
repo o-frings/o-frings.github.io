@@ -9,7 +9,7 @@ title: "Oliver Frings"
 
 ## About
 
-[I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.]{.lead-line}
+[I study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I use actuarial models and Monte Carlo simulation to price what a carbon credit delivers net of leakage, storage duration, and reversal risk.]{.lead-line}
 
 [Email](mailto:oliver.frings@ik.me){.pill}
 [Google Scholar](https://scholar.google.com/citations?user=DgFqKHYAAAAJ){.pill}
@@ -20,7 +20,7 @@ title: "Oliver Frings"
 
 ## Selected work
 
-[**Classes or Continuum?** — a pre-registrable rule for specifying latent class choice models, implemented in the R package klue. [More →](research.qmd#classes-or-continuum)]{.meta}
+[**Classes or Continuum?** — a pre-registrable rule for specifying latent class logit models, implemented in the R package klue. [More →](research.qmd#classes-or-continuum)]{.meta}
 
 [**Two Countries, One Divide** — fear of climate change splits public support for forest conservation the same way in Austria and France. [More →](research.qmd#two-countries-one-divide)]{.meta}
 

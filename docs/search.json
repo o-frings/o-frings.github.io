@@ -4,21 +4,21 @@
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "Statistical software from my research, and a few local-first apps built on the side."
+    "text": "Statistical software from my research, and three apps built on the side."
   },
   {
     "objectID": "software.html#research-software",
     "href": "software.html#research-software",
     "title": "Software",
     "section": "Research software",
-    "text": "Research software\n\nklue\nR package · GitHub · R-universe\nAn R package implementing the specification workflow for latent class choice models from the companion paper: clustering-based initialisation, multi-start estimation, and segment selection.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\nNet climate value pipeline\nR pipeline · To be made accessible upon publication\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits (paper): data, calibration, and simulation code."
+    "text": "Research software\n\nklue\nR package · GitHub · R-universe\nAn R package implementing the specification rule for latent class logit models from the companion paper. It estimates latent class models from clustering-based starting values, fits the mixed logit benchmark, and reports BIC, AIC, ICL, and entropy diagnostics.\ninstall.packages(\"klue\", repos = \"https://o-frings.r-universe.dev\")\n\n\nNet climate value pipeline\nR pipeline · To be made accessible upon publication\nThe reproducible R pipeline behind The Net Climate Value of Carbon Credits (paper): data, calibration, and simulation code."
   },
   {
     "objectID": "software.html#side-projects",
     "href": "software.html#side-projects",
     "title": "Software",
     "section": "Side projects",
-    "text": "Side projects\nAll three share the same design philosophy: local-first (your data stays on the device), no account, no subscription, and no build step — each app is plain HTML, CSS, and JavaScript, installable on the iPhone home screen as a progressive web app.\n\nYalla\nOffline-first workout tracker · App · GitHub\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nUnlike trackers such as Strong or Hevy, there is no server and no premium tier. Rather than following linear progression templates, it tracks training volume across twelve muscle groups (shown as a balance radar), suggests deload weeks from cumulative load, and builds plans around your venue (home, park, gym) and logged injuries. Bodyweight exercises are logged at true load — body weight plus added weight.\n\n\n\n\n\nClue\nKnowledge and debate trainer · App · GitHub\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nWhere Anki organises learning around a due-card queue with streaks and daily quotas, Clue deliberately has none of these: the spaced-repetition schedule (SM-2) runs invisibly, and due material simply resurfaces in a discovery feed and as faded nodes in a growing mind-map of what you know. Cards are rungs in short ladders (gist → basics → deeper → debate), and every claim links to an evidence registry with cited sources and an explicit evidence-strength label.\n\n\n\n\n\nMäander\nBike routing for quiet, nature-oriented rides in Germany\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nWhere Komoot or Google Maps optimise for time and distance, Mäander (TypeScript, MapLibre, BRouter) runs a custom routing profile that treats parks and forests as islands of shelter and busy roads as water: motorways carry a 700 m noise halo, forest tracks cost a fraction of paved roads, and one slider moves a route from fastest to greenest. It also plans round-trip loops of a chosen length and compass direction, and compares several route alternatives side by side."
+    "text": "Side projects\nYalla and Clue are free and work offline, with your data stored on the device. Signing in is optional and syncs your data across devices. Both are plain HTML, CSS, and JavaScript without a build step and install on the iPhone home screen as progressive web apps.\n\nYalla\nOffline-first workout tracker · App · GitHub\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nIt tracks training volume across twelve muscle groups, shown as a balance radar, and suggests deload weeks from cumulative load. It builds plans around your venue (home, park, gym) and logged injuries. Volume for bodyweight exercises counts body weight plus any added weight.\n\n\n\n\n\nClue\nKnowledge and debate trainer · App · GitHub\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nNew cards turn up in a discovery feed and open in layers, starting with the gist. A simplified SM-2 spaced-repetition schedule brings cards back for review. A map of what you know grows as you learn and shows cards due for review as faded nodes. Every card cites sources from an evidence registry, which records the strength of evidence for each source.\n\n\n\n\n\nMäander\nBike routing for quiet, nature-oriented rides in Germany\n\n\n\n\n\n\nNoteMore\n\n\n\n\n\nMäander (TypeScript, MapLibre, BRouter) uses a custom routing profile that favours parks and forests and avoids busy roads. Motorways carry a 700 m noise halo, and forest tracks cost a fraction of paved roads. One slider moves a route from fastest to greenest. It also plans round trips of a chosen length and compass direction and compares several route alternatives side by side."
   },
   {
     "objectID": "talks.html",
@@ -95,14 +95,14 @@
     "href": "index.html#about",
     "title": "Oliver Frings",
     "section": "About",
-    "text": "About\nI study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I price what a carbon credit actually delivers — net of leakage, storage duration, and reversal risk — with actuarial models and Monte Carlo simulation.\nEmail Google Scholar ORCID GitHub LinkedIn CV (PDF)"
+    "text": "About\nI study whether nature markets deliver what they promise. On the demand side, I measure public support for forest conservation and carbon offsetting across Europe with discrete choice experiments. On the supply side, I use actuarial models and Monte Carlo simulation to price what a carbon credit delivers net of leakage, storage duration, and reversal risk.\nEmail Google Scholar ORCID GitHub LinkedIn CV (PDF)"
   },
   {
     "objectID": "index.html#selected-work",
     "href": "index.html#selected-work",
     "title": "Oliver Frings",
     "section": "Selected work",
-    "text": "Selected work\nClasses or Continuum? — a pre-registrable rule for specifying latent class choice models, implemented in the R package klue. More →\nTwo Countries, One Divide — fear of climate change splits public support for forest conservation the same way in Austria and France. More →\nThe Net Climate Value of Carbon Credits — 9–57% of a verified forest carbon tonne survives as net climate value once leakage, storage duration, and reversal risk are priced together. More →"
+    "text": "Selected work\nClasses or Continuum? — a pre-registrable rule for specifying latent class logit models, implemented in the R package klue. More →\nTwo Countries, One Divide — fear of climate change splits public support for forest conservation the same way in Austria and France. More →\nThe Net Climate Value of Carbon Credits — 9–57% of a verified forest carbon tonne survives as net climate value once leakage, storage duration, and reversal risk are priced together. More →"
   },
   {
     "objectID": "index.html#upcoming-events",
